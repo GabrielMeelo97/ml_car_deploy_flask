@@ -13,7 +13,7 @@ Para executar o projeto, siga estas etapas:
 1. Clone o repositório para o seu computador
 2. Instale as dependências necessárias executando `pip install -r requirements.txt`
 3. Certifique-se de que o arquivo pickle do modelo está presente na pasta "modelo"
-4. Execute o teste unitário usando o comando 'pytest'
+4. Execute o teste unitário usando o comando `pytest`
 5. Execute o arquivo "app.py" usando o comando `python app.py`
 6. Abra um navegador da web e navegue até "http://localhost:5000"
 
