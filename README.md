@@ -14,13 +14,15 @@ Para executar o projeto, siga estas etapas:
 2. Instale as dependências necessárias executando `pip install -r requirements.txt`
 3. Certifique-se de que o arquivo pickle do modelo está presente na pasta "modelo"
 4. Execute o arquivo "app.py" usando o comando `python app.py`
-5. Abra um navegador da web e navegue até "http://localhost:5000"
+5. Execute o teste unitário usando o comando 'pytest'
+6. Abra um navegador da web e navegue até "http://localhost:5000"
 
 ## Descrição dos arquivos
 
 - `notebook/desenvolvendo_modelo.ipynb`: este arquivo contém o código usado para treinar e salvar o modelo
 - `modelo/modelo.pickle`: este arquivo contém o modelo salvo em formato pickle
 - `app.py`: este arquivo contém o código usado para criar a interface web usando Flask e disponibilizar o modelo para fazer predições
+- `tests/pickle_test': este arquivo contém um pequeno teste unitário que faz a comparação do modelo gerador pelo jupyter com o resultado modelo pickle.
 
 ## Como contribuir
 
